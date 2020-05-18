@@ -36,7 +36,7 @@ exports.gimmeContext = (eventName, action) => {
 
     getPayload() {
       const filename =
-        typeof action !== undefined
+        typeof this.action !== "undefined"
           ? `${eventName}.${action}.json`
           : `${eventName}.json`;
       return require(`./fixtures/payloads/${filename}`);
