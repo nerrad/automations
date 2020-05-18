@@ -1,3 +1,5 @@
+> Note: This project has been replaced by https://github.com/woocommerce/automations
+
 # Project management automation
 
 This is a [GitHub Action](https://help.github.com/en/categories/automating-your-workflow-with-github-actions) which contains various automations to assist with project management in a Github repository.
